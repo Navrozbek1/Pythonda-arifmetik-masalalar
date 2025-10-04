@@ -59,7 +59,7 @@
 # q = x%n
 # print("Sonni ozi: ",son, "Qoldiqi: ", q)
 
-# 2
+# 1.10
 
 # a = int(input("A-sonni kiriting: "))
 # b = int(input("B-sonni kiriting: "))
@@ -70,3 +70,72 @@
 
 # 2.1
 
+# tolov = int(input("Tolovni kiriting: "))
+# oy = int(input("Necha oyga tolamoqchisiz: "))
+# som = tolov // oy
+# print(f"Oylik tolov soumasi: {som} ming so'm !")
+
+# 2.2
+
+# d = int(input("Masaofani (KM) da kiriting: "))
+# v = int(input("Tezlikni kiriting: "))
+# print(f"Siz berilgan masaofanai: {d / v} soatda bosibib O'tasiz !")
+
+# 2.3
+
+# son = int(input("Nechta yolovchi sigimi mavjud: "))
+# x = int(input("Nechta odam chiqdi: "))
+#
+# nechta_yetadi = son // x
+# nechta_qoldi = son % x
+# print(f"Har bir yolovchiga: {nechta_yetadi} yetdi. Ortib qoldi: {nechta_qoldi}")
+
+# 2.4
+
+# litr = int(input("100 km ga Nechta litr benzin ketadi: "))
+# km = int(input("Nechta KM yurildi: "))
+# print(f"Bu masofani bosib otish uchun: {litr * km / 100} litr yonilg'i ketdi !")
+
+# 2.5
+
+# maosh = input("Oylik maoshni kiriting: ")
+# print(f"Xodim 12% ushlab qolish bilan: {int(maosh) * (1-0.12)} so'm olasiz!")
+
+# 2.6
+
+# amount = int(input("Oladigan pul: "))
+# days = int(input("kechikkan kunlar: "))
+# penalty = amount * 0.001 * days
+# total = amount + penalty
+# print(f"Siz beriladigan pul: {total}")
+
+# 2.7
+
+# price = int(input("Maxsulot narxi: "))
+# discount = int(input("Xaridor chegirmasi: "))
+# paid = price * (1 - discount / 100)
+# print(f"Maxsulot chegirma bilan: {paid}")
+
+# 2.8
+
+# P = int(input("Asosiy summa: "))
+# r = int(input("Yillik foiz stavkasi : "))
+# t = int(input("Yillar soni: "))
+# interest = (P * r * t) / 100
+# total = P + interest
+# print(f"Natija Hisoblangan foiz: {interest}. Umumiy summa: {total}")
+
+# 2.9
+
+# base_qty = int(input("Retseptdagi asosiy miqdor (gram): "))
+# people = int(input("Necha kishi uchun hisoblasin: "))
+# per_person = base_qty / 4
+# needed = per_person * people
+# print(f"{people} kishi uchun kerakli miqdor: {needed} gramm")
+
+# 2.10
+
+# bill = int(input("Hisob-kitob summasi (so'm): "))
+# tip = bill * 0.10
+# total = bill + tip
+# print(f"10% choychaqa bilan umumiy summa: {total} so'm.")
