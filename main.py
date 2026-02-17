@@ -139,3 +139,4 @@
 # tip = bill * 0.10
 # total = bill + tip
 # print(f"10% choychaqa bilan umumiy summa: {total} so'm.")
+
